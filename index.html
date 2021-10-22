@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>P 103</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+   <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <center>
+        <button class="btn btn-danger">Image reconigation</button>
+        <br>
+        <br>
+        <p>Images to reconigiesd</p>
+        <b class="names">
+            Mother
+            <hr> <hr>
+            Father
+            <hr> <hr>
+            ME
+            <hr> <hr>
+        </b>
+        <h5>webcam view</h5>
+        <div id="camera"></div>
+        <br>
+        <div id="camera_result"></div>
+        <br>
+        <button onclick="snapshot();" class="btn btn-info">Click picture</button>
+        <br>
+        <button onclick="check();" class="bt btn-warning">check</button>
+        <p>Object: <span id="object_name"></span></p>
+        <p>Accuracy: <span id="object_Accuracy"></span></p>
+    </center>
+
+    </body>
+</html>

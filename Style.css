@@ -1,0 +1,11 @@
+body{
+    background: blue;
+}
+.names,#object_name,#object_Accuracy{
+    color: lime;
+}
+#camera{
+    border:2px double black;
+    width: 350px;
+    height: 350px;
+}
